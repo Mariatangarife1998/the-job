@@ -1,6 +1,6 @@
 /* eslint-disable */
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const RecentJobs = () => (
   <section>
@@ -11,7 +11,6 @@ const RecentJobs = () => (
       </header>
 
       <div className="row item-blocks-connected">
-
         <div className="col-xs-12">
           <a className="item-block" href="/">
             <header>
@@ -91,12 +90,14 @@ const RecentJobs = () => (
             </header>
           </a>
         </div>
-
       </div>
 
-      <br /><br />
+      <br />
+      <br />
       <p className="text-center">
-        <Link className="btn btn-info" to="/jobs">Browse all jobs</Link>
+        <Link className="btn btn-info" to="/jobs">
+          Browse all jobs
+        </Link>
       </p>
     </div>
   </section>
